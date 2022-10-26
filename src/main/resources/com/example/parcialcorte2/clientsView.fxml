@@ -41,13 +41,13 @@
                         <TextField fx:id="phoneInput" layoutX="354.0" layoutY="96.0" prefHeight="26.0" prefWidth="80.0" />
                         <TextField fx:id="emailInput" layoutX="121.0" layoutY="96.0" prefHeight="26.0" prefWidth="114.0" />
                         <Label fx:id="tableArray" layoutX="104.0" layoutY="229.0" prefHeight="112.0" prefWidth="462.0" style="-fx-border-color: black;" />
-                        <Button layoutX="33.0" layoutY="251.0" mnemonicParsing="false" onAction="#createClient" text="Crear" />
+                        <Button layoutX="33.0" layoutY="272.0" mnemonicParsing="false" onAction="#createClient" text="Crear" />
                         <Label layoutX="200.0" layoutY="146.0" prefHeight="34.0" prefWidth="34.0" text="Edad" textAlignment="CENTER" wrapText="true" />
                         <TextField fx:id="ageInput" layoutX="251.0" layoutY="150.0" prefHeight="26.0" prefWidth="64.0" />
                      </children>
                   </AnchorPane>
                   <Label fx:id="tableSearch" layoutX="103.0" layoutY="362.0" prefHeight="90.0" prefWidth="467.0" style="-fx-border-color: black;" />
-                  <Button layoutX="27.0" layoutY="394.0" mnemonicParsing="false" onAction="#searchButton" text="Buscar" />
+                  <Button layoutX="20.0" layoutY="374.0" mnemonicParsing="false" onAction="#searchButton" prefHeight="66.0" prefWidth="71.0" text="Buscar mayor de edad" textAlignment="CENTER" wrapText="true" />
                </children>
             </AnchorPane>
          </center>
