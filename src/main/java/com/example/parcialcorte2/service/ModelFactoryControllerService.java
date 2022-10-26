@@ -1,2 +1,9 @@
-package com.example.parcialcorte2.service;public interface ModelFactoryControllerService {
+package com.example.parcialcorte2.service;
+
+import javafx.scene.control.Label;
+
+public interface ModelFactoryControllerService {
+    void createNewClient(String name, String id, String email, String phone, String age);
+    void showInformation(Label tableArray);
+    void showSearch(Label tableSearch);
 }

@@ -7,9 +7,9 @@
 <?import javafx.scene.layout.BorderPane?>
 
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="526.0" prefWidth="709.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.parcialcorte2.controller.ClientsViewController">
    <children>
-      <BorderPane prefHeight="400.0" prefWidth="600.0">
+      <BorderPane prefHeight="526.0" prefWidth="709.0">
          <top>
             <AnchorPane prefHeight="62.0" prefWidth="600.0" style="-fx-background-color: gray;" BorderPane.alignment="CENTER">
                <children>
@@ -40,9 +40,14 @@
                         <TextField fx:id="idInput" layoutX="354.0" layoutY="35.0" prefHeight="26.0" prefWidth="80.0" />
                         <TextField fx:id="phoneInput" layoutX="354.0" layoutY="96.0" prefHeight="26.0" prefWidth="80.0" />
                         <TextField fx:id="emailInput" layoutX="121.0" layoutY="96.0" prefHeight="26.0" prefWidth="114.0" />
-                        <Label fx:id="tableArray" layoutX="36.0" layoutY="169.0" prefHeight="109.0" prefWidth="413.0" style="-fx-border-color: black;" />
+                        <Label fx:id="tableArray" layoutX="104.0" layoutY="229.0" prefHeight="112.0" prefWidth="462.0" style="-fx-border-color: black;" />
+                        <Button layoutX="33.0" layoutY="251.0" mnemonicParsing="false" onAction="#createClient" text="Crear" />
+                        <Label layoutX="200.0" layoutY="146.0" prefHeight="34.0" prefWidth="34.0" text="Edad" textAlignment="CENTER" wrapText="true" />
+                        <TextField fx:id="ageInput" layoutX="251.0" layoutY="150.0" prefHeight="26.0" prefWidth="64.0" />
                      </children>
                   </AnchorPane>
+                  <Label fx:id="tableSearch" layoutX="103.0" layoutY="362.0" prefHeight="90.0" prefWidth="467.0" style="-fx-border-color: black;" />
+                  <Button layoutX="27.0" layoutY="394.0" mnemonicParsing="false" onAction="#searchButton" text="Buscar" />
                </children>
             </AnchorPane>
          </center>
