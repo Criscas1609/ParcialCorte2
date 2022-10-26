@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="400.0" prefWidth="600.0">
+         <top>
+            <AnchorPane prefHeight="62.0" prefWidth="600.0" style="-fx-background-color: gray;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="271.0" layoutY="22.0" prefHeight="18.0" prefWidth="58.0" text="Clientes" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+         </top>
+         <left>
+            <AnchorPane prefHeight="338.0" prefWidth="114.0" style="-fx-background-color: gray;" BorderPane.alignment="CENTER">
+               <children>
+                  <Button layoutX="25.0" layoutY="38.0" mnemonicParsing="false" onAction="#buttonProducts" text="Productos" />
+                  <Button layoutX="30.0" layoutY="111.0" mnemonicParsing="false" onAction="#buttonClients" text="Clientes" />
+                  <Button layoutX="22.0" layoutY="190.0" mnemonicParsing="false" onAction="#buttonEmployee" text="Empleados" />
+                  <Button layoutX="31.0" layoutY="262.0" mnemonicParsing="false" onAction="#buttonSells" text="Ventas" />
+               </children>
+            </AnchorPane>
+         </left>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane prefHeight="337.0" prefWidth="485.0">
+                     <children>
+                        <Label layoutX="50.0" layoutY="39.0" prefHeight="18.0" prefWidth="55.0" text="Nombre" textAlignment="CENTER" wrapText="true" />
+                        <Label layoutX="28.0" layoutY="92.0" prefHeight="34.0" prefWidth="83.0" text="Correo Electronico" textAlignment="CENTER" wrapText="true" />
+                        <Label layoutX="285.0" layoutY="39.0" prefHeight="18.0" prefWidth="106.0" text="Cedula" textAlignment="CENTER" wrapText="true" />
+                        <Label layoutX="285.0" layoutY="100.0" prefHeight="18.0" prefWidth="53.0" text="Telefono" textAlignment="CENTER" wrapText="true" />
+                        <TextField fx:id="nameInput" layoutX="121.0" layoutY="35.0" prefHeight="26.0" prefWidth="114.0" />
+                        <TextField fx:id="idInput" layoutX="354.0" layoutY="35.0" prefHeight="26.0" prefWidth="80.0" />
+                        <TextField fx:id="phoneInput" layoutX="354.0" layoutY="96.0" prefHeight="26.0" prefWidth="80.0" />
+                        <TextField fx:id="emailInput" layoutX="121.0" layoutY="96.0" prefHeight="26.0" prefWidth="114.0" />
+                        <Label fx:id="tableArray" layoutX="36.0" layoutY="169.0" prefHeight="109.0" prefWidth="413.0" style="-fx-border-color: black;" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
